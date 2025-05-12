@@ -79,5 +79,5 @@ while(running):
             pennies = int(input("Number of pennies : "))
             processTransaction(prompt,quarters,dimes,nickels,pennies)
     elif(prompt=="report"):
-        print(f'Water: {resources["water"]} ml\nMilk: {resources["milk"]} ml\nCoffee: {resources["coffee"]} g\nMoney: ${resources["money"]}')
+        print(f'Water: {resources["water"]} ml\nMilk: {resources["milk"]}\nCoffee: {resources["coffee"]}\nMoney: {resources["money"]}')
 
