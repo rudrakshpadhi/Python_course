@@ -2,7 +2,6 @@ from turtle import Turtle,Screen
 import pandas as pd
 STATE_DATA = pd.read_csv("50_states.csv")
 states = STATE_DATA.state.tolist()
-states = ["Michigan"]
 screen = Screen()
 screen.title("US States game")
 screen.addshape("blank_states_img.gif")
