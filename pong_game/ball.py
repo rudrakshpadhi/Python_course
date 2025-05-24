@@ -3,7 +3,7 @@ from turtle import Turtle,Screen
 import random
 class Ball():
     def __init__(self,paddles,screen):
-        self.ball = Turtle(shape="triangle")
+        self.ball = Turtle(shape="circle")
         self.ball.speed(1)
         self.ball.color("white")
         self.ball.penup()
